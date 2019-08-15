@@ -1,6 +1,6 @@
 {
   "name": "amrhextotext",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Conversor de Hexadecimal a Texto",
   "main": "index.js",
   "scripts": {
