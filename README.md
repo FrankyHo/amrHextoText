@@ -16,13 +16,13 @@ git clone https://github.com/voltican/amrHextoText.git
 ##  Usage
 ```shell
 const text = 'test text'
-const hex = '54 65 78 74 6f 20 64 65 20 70 72 75 65 62 61'
+const hex = '746573742074657874'
 
 const convert = require('amrhextotext')
 
 //convert text to hex
 let hexSample = convert.textToHex(text)
-//Result: 54 65 78 74 6f 20 64 65 20 70 72 75 65 62 61
+//Result: 746573742074657874
 
 //Convert hex to text
 let textSample = convert.hexToUtf8(hex)
